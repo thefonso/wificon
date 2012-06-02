@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3636615157A787D0083B1A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3636614157A787D0083B1A5 /* Cocoa.framework */; };
+		F3636617157A787D0083B1A5 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3636616157A787D0083B1A5 /* AppleScriptObjC.framework */; };
+		F3636621157A787D0083B1A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F363661F157A787D0083B1A5 /* InfoPlist.strings */; };
+		F3636623157A787D0083B1A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3636622157A787D0083B1A5 /* main.m */; };
+		F3636627157A787D0083B1A5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F3636625157A787D0083B1A5 /* Credits.rtf */; };
+		F3636629157A787D0083B1A5 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = F3636628157A787D0083B1A5 /* AppDelegate.applescript */; };
+		F363662C157A787D0083B1A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F363662A157A787D0083B1A5 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F3636610157A787D0083B1A5 /* wificon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wificon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3636614157A787D0083B1A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F3636616157A787D0083B1A5 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		F3636619157A787D0083B1A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F363661A157A787D0083B1A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F363661B157A787D0083B1A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F363661E157A787D0083B1A5 /* wificon-Info.plist */ = {isa = PBXFileReference; path = "wificon-Info.plist"; sourceTree = "<group>"; };
+		F3636620157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F3636622157A787D0083B1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3636624157A787D0083B1A5 /* wificon-Prefix.pch */ = {isa = PBXFileReference; path = "wificon-Prefix.pch"; sourceTree = "<group>"; };
+		F3636626157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F3636628157A787D0083B1A5 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
+		F363662B157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F363660D157A787D0083B1A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3636615157A787D0083B1A5 /* Cocoa.framework in Frameworks */,
+				F3636617157A787D0083B1A5 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3636605157A787D0083B1A5 = {
+			isa = PBXGroup;
+			children = (
+				F363661C157A787D0083B1A5 /* wificon */,
+				F3636613157A787D0083B1A5 /* Frameworks */,
+				F3636611157A787D0083B1A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3636611157A787D0083B1A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3636610157A787D0083B1A5 /* wificon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3636613157A787D0083B1A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3636614157A787D0083B1A5 /* Cocoa.framework */,
+				F3636616157A787D0083B1A5 /* AppleScriptObjC.framework */,
+				F3636618157A787D0083B1A5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3636618157A787D0083B1A5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3636619157A787D0083B1A5 /* AppKit.framework */,
+				F363661A157A787D0083B1A5 /* CoreData.framework */,
+				F363661B157A787D0083B1A5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F363661C157A787D0083B1A5 /* wificon */ = {
+			isa = PBXGroup;
+			children = (
+				F3636628157A787D0083B1A5 /* AppDelegate.applescript */,
+				F363662A157A787D0083B1A5 /* MainMenu.xib */,
+				F363661D157A787D0083B1A5 /* Supporting Files */,
+			);
+			path = wificon;
+			sourceTree = "<group>";
+		};
+		F363661D157A787D0083B1A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F363661E157A787D0083B1A5 /* wificon-Info.plist */,
+				F363661F157A787D0083B1A5 /* InfoPlist.strings */,
+				F3636622157A787D0083B1A5 /* main.m */,
+				F3636624157A787D0083B1A5 /* wificon-Prefix.pch */,
+				F3636625157A787D0083B1A5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F363660F157A787D0083B1A5 /* wificon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F363662F157A787D0083B1A5 /* Build configuration list for PBXNativeTarget "wificon" */;
+			buildPhases = (
+				F363660C157A787D0083B1A5 /* Sources */,
+				F363660D157A787D0083B1A5 /* Frameworks */,
+				F363660E157A787D0083B1A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wificon;
+			productName = wificon;
+			productReference = F3636610157A787D0083B1A5 /* wificon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3636607157A787D0083B1A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F363660A157A787D0083B1A5 /* Build configuration list for PBXProject "wificon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F3636605157A787D0083B1A5;
+			productRefGroup = F3636611157A787D0083B1A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F363660F157A787D0083B1A5 /* wificon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F363660E157A787D0083B1A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3636621157A787D0083B1A5 /* InfoPlist.strings in Resources */,
+				F3636627157A787D0083B1A5 /* Credits.rtf in Resources */,
+				F363662C157A787D0083B1A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F363660C157A787D0083B1A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3636623157A787D0083B1A5 /* main.m in Sources */,
+				F3636629157A787D0083B1A5 /* AppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F363661F157A787D0083B1A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3636620157A787D0083B1A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F3636625157A787D0083B1A5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3636626157A787D0083B1A5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F363662A157A787D0083B1A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F363662B157A787D0083B1A5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F363662D157A787D0083B1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F363662E157A787D0083B1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F3636630157A787D0083B1A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wificon/wificon-Prefix.pch";
+				INFOPLIST_FILE = "wificon/wificon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F3636631157A787D0083B1A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wificon/wificon-Prefix.pch";
+				INFOPLIST_FILE = "wificon/wificon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F363660A157A787D0083B1A5 /* Build configuration list for PBXProject "wificon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F363662D157A787D0083B1A5 /* Debug */,
+				F363662E157A787D0083B1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F363662F157A787D0083B1A5 /* Build configuration list for PBXNativeTarget "wificon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3636630157A787D0083B1A5 /* Debug */,
+				F3636631157A787D0083B1A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3636607157A787D0083B1A5 /* Project object */;
+}
