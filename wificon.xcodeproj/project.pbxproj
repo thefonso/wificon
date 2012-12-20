@@ -23,10 +23,10 @@
 		F3636619157A787D0083B1A5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		F363661A157A787D0083B1A5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		F363661B157A787D0083B1A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F363661E157A787D0083B1A5 /* wificon-Info.plist */ = {isa = PBXFileReference; path = "wificon-Info.plist"; sourceTree = "<group>"; };
+		F363661E157A787D0083B1A5 /* wificon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wificon-Info.plist"; sourceTree = "<group>"; };
 		F3636620157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3636622157A787D0083B1A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F3636624157A787D0083B1A5 /* wificon-Prefix.pch */ = {isa = PBXFileReference; path = "wificon-Prefix.pch"; sourceTree = "<group>"; };
+		F3636624157A787D0083B1A5 /* wificon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wificon-Prefix.pch"; sourceTree = "<group>"; };
 		F3636626157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		F3636628157A787D0083B1A5 /* AppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = AppDelegate.applescript; sourceTree = "<group>"; };
 		F363662B157A787D0083B1A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		F3636607157A787D0083B1A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = F363660A157A787D0083B1A5 /* Build configuration list for PBXProject "wificon" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -292,6 +292,7 @@
 				F3636631157A787D0083B1A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
